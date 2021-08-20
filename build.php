@@ -16,7 +16,7 @@
     
   // Print the exec output inside of a pre element
   execPrint("cd /var/www/bpo-project-web");  
-  execPrint("git pull origin main");
+  execPrint("git pull https://github.com/devzila/bpo-project-web.git main");
   execPrint("git status");  
     
 ?>
